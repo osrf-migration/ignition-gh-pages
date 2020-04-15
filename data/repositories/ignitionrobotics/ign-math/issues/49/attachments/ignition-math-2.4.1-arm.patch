@@ -1,0 +1,62 @@
+diff -up ./include/ignition/math/Helpers.hh.arm ./include/ignition/math/Helpers.hh
+--- ./include/ignition/math/Helpers.hh.arm	2016-07-17 22:44:20.356159571 -0400
++++ ./include/ignition/math/Helpers.hh	2016-07-17 22:44:20.358159647 -0400
+@@ -518,7 +518,9 @@ namespace ignition
+ 
+     // Degrade precision on Windows, which cannot handle 'long double'
+     // values properly. See the implementation of Unpair.
+-#ifdef _MSC_VER
++    // 32 bit ARM processors also define 'long double' to be the same
++    // size as 'double', and must also be degraded
++#if defined _MSC_VER || defined __arm__
+     using PairInput = uint16_t;
+     using PairOutput = uint32_t;
+ #else
+diff -up ./src/Helpers_TEST.cc.arm ./src/Helpers_TEST.cc
+--- ./src/Helpers_TEST.cc.arm	2016-07-08 14:48:37.000000000 -0400
++++ ./src/Helpers_TEST.cc	2016-07-17 23:02:03.811649459 -0400
+@@ -324,7 +324,7 @@ TEST(HelpersTest, Volume)
+ /////////////////////////////////////////////////
+ TEST(HelpersTest, Pair)
+ {
+-#ifdef _MSC_VER
++#if defined _MSC_VER || defined __arm__
+   math::PairInput maxA = IGN_UINT16_MAX;
+   math::PairInput maxB = IGN_UINT16_MAX;
+ #else
+@@ -336,7 +336,7 @@ TEST(HelpersTest, Pair)
+ 
+   // Maximum parameters should generate a maximum key
+   math::PairOutput maxKey = math::Pair(maxA, maxB);
+-#ifdef _MSC_VER
++#if defined _MSC_VER || defined __arm__
+   EXPECT_EQ(maxKey, IGN_UINT32_MAX);
+ #else
+   EXPECT_EQ(maxKey, IGN_UINT64_MAX);
+@@ -346,7 +346,7 @@ TEST(HelpersTest, Pair)
+   EXPECT_EQ(maxC, maxA);
+   EXPECT_EQ(maxD, maxB);
+ 
+-#ifdef _MSC_VER
++#if defined _MSC_VER || defined __arm__
+   math::PairInput minA = IGN_UINT16_MIN;
+   math::PairInput minB = IGN_UINT16_MIN;
+ #else
+@@ -357,7 +357,7 @@ TEST(HelpersTest, Pair)
+ 
+   // Minimum parameters should generate a minimum key
+   math::PairOutput minKey = math::Pair(minA, minB);
+-#ifdef _MSC_VER
++#if defined _MSC_VER || defined __arm__
+   EXPECT_EQ(minKey, IGN_UINT32_MIN);
+ #else
+   EXPECT_EQ(minKey, IGN_UINT64_MIN);
+@@ -408,7 +408,7 @@ TEST(HelpersTest, Pair)
+       }
+     }
+ 
+-#ifndef _MSC_VER
++#if !defined _MSC_VER && !defined __arm__
+     // Iterate over large numbers, and check for unique keys.
+     for (math::PairInput a = IGN_UINT32_MAX-5000; a < IGN_UINT32_MAX; a++)
+     {

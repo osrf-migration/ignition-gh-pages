@@ -1,0 +1,122 @@
+{
+    "ignitionrobotics/docs": {
+        "project_file": "data/repositories/ignitionrobotics/docs.json",
+        "project_path": "data/repositories/ignitionrobotics/docs/",
+        "is_fork": false,
+        "github_repo": "https://github.com/ignitionrobotics/docs"
+    },
+    "ignitionrobotics/ign-acropolis": {
+        "project_file": "data/repositories/ignitionrobotics/ign-acropolis.json",
+        "project_path": "data/repositories/ignitionrobotics/ign-acropolis/",
+        "is_fork": false,
+        "github_repo": "https://github.com/ignitionrobotics/ign-acropolis"
+    },
+    "ignitionrobotics/ign-blueprint": {
+        "project_file": "data/repositories/ignitionrobotics/ign-blueprint.json",
+        "project_path": "data/repositories/ignitionrobotics/ign-blueprint/",
+        "is_fork": false,
+        "github_repo": "https://github.com/ignitionrobotics/ign-blueprint"
+    },
+    "ignitionrobotics/ign-citadel": {
+        "project_file": "data/repositories/ignitionrobotics/ign-citadel.json",
+        "project_path": "data/repositories/ignitionrobotics/ign-citadel/",
+        "is_fork": false,
+        "github_repo": "https://github.com/ignitionrobotics/ign-citadel"
+    },
+    "ignitionrobotics/ign-cmake": {
+        "project_file": "data/repositories/ignitionrobotics/ign-cmake.json",
+        "project_path": "data/repositories/ignitionrobotics/ign-cmake/",
+        "is_fork": false,
+        "github_repo": "https://github.com/ignitionrobotics/ign-cmake"
+    },
+    "ignitionrobotics/ign-common": {
+        "project_file": "data/repositories/ignitionrobotics/ign-common.json",
+        "project_path": "data/repositories/ignitionrobotics/ign-common/",
+        "is_fork": false,
+        "github_repo": "https://github.com/ignitionrobotics/ign-common"
+    },
+    "ignitionrobotics/ign-fuel-tools": {
+        "project_file": "data/repositories/ignitionrobotics/ign-fuel-tools.json",
+        "project_path": "data/repositories/ignitionrobotics/ign-fuel-tools/",
+        "is_fork": false,
+        "github_repo": "https://github.com/ignitionrobotics/ign-fuel-tools"
+    },
+    "ignitionrobotics/ign-gazebo": {
+        "project_file": "data/repositories/ignitionrobotics/ign-gazebo.json",
+        "project_path": "data/repositories/ignitionrobotics/ign-gazebo/",
+        "is_fork": false,
+        "github_repo": "https://github.com/ignitionrobotics/ign-gazebo"
+    },
+    "ignitionrobotics/ign-go1": {
+        "project_file": "data/repositories/ignitionrobotics/ign-go1.json",
+        "project_path": "data/repositories/ignitionrobotics/ign-go1/",
+        "is_fork": false,
+        "github_repo": "https://github.com/ignitionrobotics/ign-go1"
+    },
+    "ignitionrobotics/ign-gui": {
+        "project_file": "data/repositories/ignitionrobotics/ign-gui.json",
+        "project_path": "data/repositories/ignitionrobotics/ign-gui/",
+        "is_fork": false,
+        "github_repo": "https://github.com/ignitionrobotics/ign-gui"
+    },
+    "ignitionrobotics/ign-launch": {
+        "project_file": "data/repositories/ignitionrobotics/ign-launch.json",
+        "project_path": "data/repositories/ignitionrobotics/ign-launch/",
+        "is_fork": false,
+        "github_repo": "https://github.com/ignitionrobotics/ign-launch"
+    },
+    "ignitionrobotics/ign-math": {
+        "project_file": "data/repositories/ignitionrobotics/ign-math.json",
+        "project_path": "data/repositories/ignitionrobotics/ign-math/",
+        "is_fork": false,
+        "github_repo": "https://github.com/ignitionrobotics/ign-math"
+    },
+    "ignitionrobotics/ign-msgs": {
+        "project_file": "data/repositories/ignitionrobotics/ign-msgs.json",
+        "project_path": "data/repositories/ignitionrobotics/ign-msgs/",
+        "is_fork": false,
+        "github_repo": "https://github.com/ignitionrobotics/ign-msgs"
+    },
+    "ignitionrobotics/ign-physics": {
+        "project_file": "data/repositories/ignitionrobotics/ign-physics.json",
+        "project_path": "data/repositories/ignitionrobotics/ign-physics/",
+        "is_fork": false,
+        "github_repo": "https://github.com/ignitionrobotics/ign-physics"
+    },
+    "ignitionrobotics/ign-plugin": {
+        "project_file": "data/repositories/ignitionrobotics/ign-plugin.json",
+        "project_path": "data/repositories/ignitionrobotics/ign-plugin/",
+        "is_fork": false,
+        "github_repo": "https://github.com/ignitionrobotics/ign-plugin"
+    },
+    "ignitionrobotics/ign-rendering": {
+        "project_file": "data/repositories/ignitionrobotics/ign-rendering.json",
+        "project_path": "data/repositories/ignitionrobotics/ign-rendering/",
+        "is_fork": false,
+        "github_repo": "https://github.com/ignitionrobotics/ign-rendering"
+    },
+    "ignitionrobotics/ign-rndf": {
+        "project_file": "data/repositories/ignitionrobotics/ign-rndf.json",
+        "project_path": "data/repositories/ignitionrobotics/ign-rndf/",
+        "is_fork": false,
+        "github_repo": "https://github.com/ignitionrobotics/ign-rndf"
+    },
+    "ignitionrobotics/ign-sensors": {
+        "project_file": "data/repositories/ignitionrobotics/ign-sensors.json",
+        "project_path": "data/repositories/ignitionrobotics/ign-sensors/",
+        "is_fork": false,
+        "github_repo": "https://github.com/ignitionrobotics/ign-sensors"
+    },
+    "ignitionrobotics/ign-tools": {
+        "project_file": "data/repositories/ignitionrobotics/ign-tools.json",
+        "project_path": "data/repositories/ignitionrobotics/ign-tools/",
+        "is_fork": false,
+        "github_repo": "https://github.com/ignitionrobotics/ign-tools"
+    },
+    "ignitionrobotics/ign-transport": {
+        "project_file": "data/repositories/ignitionrobotics/ign-transport.json",
+        "project_path": "data/repositories/ignitionrobotics/ign-transport/",
+        "is_fork": false,
+        "github_repo": "https://github.com/ignitionrobotics/ign-transport"
+    }
+}

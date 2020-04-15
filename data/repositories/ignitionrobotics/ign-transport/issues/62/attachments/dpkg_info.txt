@@ -1,0 +1,8 @@
+ii  libignition-math2:amd64                         2.7.0-1~xenial                                        amd64        Ignition Robotics Math Library - Shared library
+ii  libignition-math2-dev:amd64                     2.7.0-1~xenial                                        amd64        Ignition Robotics Math Library - Development files
+ii  libignition-msgs-dev:amd64                      0.6.1-1~xenial                                        amd64        Protobuf messages for ignitionics applications - Development files
+ii  libignition-msgs0:amd64                         0.6.1-1~xenial                                        amd64        Protobuf messages for ignitionics applications - Shared library
+ii  libignition-transport2:amd64                    2.1.0-1~xenial                                        amd64        Ignition Robotics Transport Library - Shared library
+ii  libignition-transport2-dev:amd64                2.1.0-1~xenial                                        amd64        Ignition Robotics transport Library - Development files
+ii  libignition-transport3:amd64                    3.0.1-1~xenial                                        amd64        Ignition Robotics Transport Library - Shared library
+ii  libignition-transport3-dev:amd64                3.0.1-1~xenial                                        amd64        Ignition Robotics transport Library - Development files

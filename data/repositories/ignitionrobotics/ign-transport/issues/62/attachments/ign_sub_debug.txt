@@ -1,0 +1,21 @@
+Current host address: 192.168.1.10
+Process UUID: 3ed7c7d9-65a3-4cec-b8d3-26b9fff856a7
+Bind at: [tcp://192.168.1.10:44641] for pub/sub
+Bind at: [tcp://192.168.1.10:45218] for control
+Bind at: [tcp://192.168.1.10:32812] for srv. calls
+Identity for receiving srv. requests: [a60aa1b4-b8aa-479b-a1d5-d72dedc6a0d5]
+Identity for receiving srv. responses: [56da60bf-842e-4ec8-86f6-5d7e21761666]
+Subing to /foo
+Connection callback
+Publisher:
+	Topic: [@/raspberrypi:pi@/foo]
+	Address: tcp://192.168.1.5:46722
+	Process UUID: 3c55b29f-8557-4a32-9a35-73b6d21e5e81
+	Node UUID: 839cbe52-0ddb-40bd-88f0-e1d853649fb5
+	Control address: tcp://192.168.1.5:43136
+	Message type: ignition.msgs.StringMsg
+Advertise options:
+	Scope: All
+	Throttled? No
+
+

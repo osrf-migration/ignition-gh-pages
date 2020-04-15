@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ignition version='1.0'>
+  <plugin name="ignition::launch::GazeboServer"
+          filename="libignition-launch-gazebo.so">
+    <world_file>empty.sdf</world_file>
+    <run>true</run>
+  </plugin>
+  
+  <% for i in 1..100 do
+    to_sleep = rand(0..5)
+  %>
+  <executable name='sleep<%=i%>'>
+    <command>sleep <%=to_sleep%></command>
+  </executable>
+  <executable name='echo<%=i%>'>
+    <command>echo <%=i%> <%=to_sleep%></command>
+  </executable>
+  <% end %>
+
+</ignition>

@@ -1,0 +1,4 @@
+struct asd
+{
+    int a;
+}
